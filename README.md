@@ -65,8 +65,12 @@ csv-pipeline-project/
 
 3. **Lambda Layer Setup for pandas**
    -  Use Prebuilt **Klayers**
-   ex: ap-south-1 (Mumbai) region, use this ARN: 
+   ex: ap-south-1 (Mumbai) region
+
+   ```
+   ARN: 
    arn:aws:lambda:ap-south-1:770693421928:layer:Klayers-p313-pandas:1
+   ```
 
 4. **Process and Save CSV**
    - The Lambda function reads the uploaded CSV, processes it (cleaning, filtering, formatting), and saves the processed output to the **Processed-CSV bucket**.
