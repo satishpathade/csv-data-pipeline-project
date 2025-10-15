@@ -1,0 +1,6 @@
+# AWS CSV Processing Pipeline Dependencies
+
+boto3          # Interact with AWS S3 and other AWS services
+pandas         # Read, clean, and transform CSV data
+numpy          # Required by pandas for numeric operations
+

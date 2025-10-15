@@ -1,0 +1,9 @@
+Order_ID,Customer_Name,Country,Product,Price,Quantity,Total_Sales,Order_Date
+1001,John Smith,USA,Cloud Subscription,120.0,1,120.0,2025-01-02
+1002,Maria Garcia,Spain,API Access,250.0,2,500.0,2025-01-03
+1003,Raj Patel,India,Analytics Tool,300.0,1,300.0,2025-01-04
+1004,Sophia Lee,UK,Cloud Storage,180.0,3,540.0,2025-01-05
+1005,Ali Khan,UAE,Monitoring Service,200.0,1,200.0,2025-01-05
+1006,Linda Brown,USA,Database Service,0.0,2,0.0,2025-01-06
+1007,Chen Wei,China,Automation Suite,150.0,1,150.0,2025-01-07
+1008,Emma Davis,Australia,Analytics Tool,0.0,2,0.0,2025-01-07
