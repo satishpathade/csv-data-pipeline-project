@@ -29,8 +29,8 @@ This pipeline automatically cleans that data and makes it ready for visualizatio
 
 ---
 
-## 🗂️ Project Structure
-
+## Project Structure
+```
 csv-pipeline-project/
 │
 ├── lambda_function.py                  # AWS Lambda code for CSV processing
@@ -44,6 +44,7 @@ csv-pipeline-project/
 ├── processing/
 |     └── architecture-diagram.png      # Optional AWS architecture diagram
 └──
+```
 
 ---
 
@@ -79,22 +80,17 @@ csv-pipeline-project/
 7. **Data Visualization**
    - **Amazon QuickSight** reads the processed CSV from the S3 bucket and displays it in an interactive **dashboard** for analytics and reporting.
 
+## Features
+
+- Automatic CSV processing when files are uploaded to S3
+- Detects columns like Sales, Profit, and Quantity
+- Handles missing values safely
+- Stores processed CSVs in a separate bucket for further use
+- Compatible with Amazon QuickSight for visualization
+
 ## Architecture 
 
-   ![CSV Data Pipeline Architecture](processing\csv-pipeline-architecture.png)
-
----
-
-## 🧩 AWS Services Used
-
-| Service | Purpose |
-|----------|----------|
-| **Amazon S3** | Stores raw and processed CSV files |
-| **AWS Lambda** | Processes and cleans uploaded CSV data |
-| **Amazon CloudWatch** | Monitors logs and sends alerts |
-| **Amazon SNS** | Sends failure notifications (optional) |
-| **Amazon QuickSight** | Visualizes processed CSV data in dashboards |
-| **IAM Roles** | Provides permissions for Lambda and QuickSight |
+   ![Diagram](processing/csv-pipeline-architecture.png)
 
 ---
 
@@ -108,5 +104,5 @@ This serverless pipeline can be used for:
 ## Author
 
 **Satish Pathade**  
-Software Developer | Cloud & DevOps Enthusiast
+Software Developer | AWS Cloud & DevOps Engineer
 [GitHub Profile](https://github.com/satishpathade)
