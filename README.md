@@ -38,11 +38,11 @@ csv-pipeline-project/
 ├── README.md                           # Project documentation
 │
 ├── data/
-│     ├── sample_raw_data.csv           # Example raw input
-│     └── sample_processed_data.csv     # Example cleaned output
+│     ├── sample_raw_data.csv           # raw file
+│     └── sample_processed_data.csv     # processed file 
 │
 ├── processing/
-|     └── architecture-diagram.png      # Optional AWS architecture diagram
+|     └── architecture-diagram.png      # AWS architecture diagram
 └──
 ```
 
@@ -103,7 +103,7 @@ This serverless pipeline can be used for:
 1. Cleaning and standardizing sales or transaction CSVs  
 2. Processing IoT sensor data files  
 3. Preparing business data for visualization dashboards  
-4. Automating ETL (Extract, Transform, Load) workflows  
+4. Automating ETL (Extract, Transform, Load) workflows 
 
 ## Author
 
